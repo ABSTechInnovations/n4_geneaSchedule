@@ -1,0 +1,41 @@
+.editor.Scheduler .week-panel {
+    background: #1349c2 !important;
+    font: bold italic 12.0pt Arial !important;
+}
+
+.ux-tab-bar .ux-btn.ux-toggled {
+    background: #dc1111;
+}
+
+.ux-toggle-btn-group > button {
+    background-color: #b43d3d;
+}
+
+.ux-fullscreen-support .ux-fullscreen > .ux-fixed-header {
+    background: aqua;
+}
+
+.ux-root > .bajaux-widget-container > .bajaux-widget {
+    background: blue;
+}
+
+.Scheduler .ux-tab-panel-container > * {
+    background: #ec8c0c;
+}
+
+.SpecialEventsEditor .calendarEventsList {
+    background: #1349c2;
+}
+
+.editor.TableWidget.fixedHeaders {
+    background: #a204ad;
+}
+
+.editor.TableWidget.fixedHeaders .tableContainer {
+    background-color: #fc133d;
+}
+
+.ux-table .ux-table-head th, .ux-table .ux-table-head .ux-table-head-cell {
+    background-color: #c92e2e;
+    color: #e6dbdb;
+}

@@ -15,7 +15,7 @@ plugins {
   id("com.tridium.niagara-signing")
 
   // The bajadoc plugin configures the generation of Bajadoc for a module.
-  id("com.tridium.bajadoc")
+  //id("com.tridium.bajadoc")
 
   // Configures JaCoCo for the "niagaraTest" task of this module.
   id("com.tridium.niagara-jacoco")
@@ -50,11 +50,26 @@ dependencies {
 
   // Niagara module dependencies
   api("Tridium:baja")
+  api("Tridium:bajaScript-ux")
+  api("Tridium:bajaui-ux")
+  api("Tridium:schedule-ux")
+  api("Tridium:schedule-rt")
+  api("Tridium:web-rt")
+  api("Tridium:bajaux-rt")
+  api("Tridium:bajaux-ux")
+  api("Tridium:web-rt")
+  api("Tridium:webEditors-ux")
 
   // Test Niagara module dependencies
   moduleTestImplementation("Tridium:test-wb")
 }
 
-tasks.named<GruntBuildTask>("gruntBuild") {
-  tasks("babel:dist", "copy:dist", "requirejs")
+tasks.named<Jar>("jar") {
+  from("src") {
+    include("rc/")
+  }
 }
+
+/*tasks.named<GruntBuildTask>("gruntBuild") {
+  tasks("babel:dist", "copy:dist", "requirejs")
+}*/

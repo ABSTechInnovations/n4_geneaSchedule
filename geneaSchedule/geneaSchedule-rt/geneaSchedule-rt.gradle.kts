@@ -14,7 +14,7 @@ plugins {
   id("com.tridium.niagara-signing")
 
   // The bajadoc plugin configures the generation of Bajadoc for a module.
-  id("com.tridium.bajadoc")
+  //id("com.tridium.bajadoc")
 
   // Configures JaCoCo for the "niagaraTest" task of this module.
   id("com.tridium.niagara-jacoco")

@@ -33,6 +33,18 @@ vendor {
   defaultModuleVersion("1.0")
 }
 
+signingServices {
+  // Disable the use of the default profile; this will cause build failures instead
+  // of silently falling back to the default
+  signingProfileFactory {
+    allowDefaultProfile.set(false)
+  }
+}
+
+niagaraSigning {
+  aliases.set(com.tridium.util.CollectionUtil.listOf("MyCertificate"))
+  signingProfileFile.set(project.layout.projectDirectory.file("my_signing_profile.xml"))
+}
 
 ////////////////////////////////////////////////////////////////
 // Dependencies and configurations... configuration

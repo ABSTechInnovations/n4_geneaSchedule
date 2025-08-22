@@ -1,0 +1,10 @@
+<types>
+  <!--com.fl.geneaSchedule.ux-->
+  <type class="com.fl.geneaSchedule.ux.BGeneaSchedule" name="GeneaSchedule">
+    <agent requiredPermissions="r">
+      <on type="schedule:WeeklySchedule"/>
+      <on type="schedule:Scheduler"/>
+      <on type="niagaraVirtual:NiagaraVirtualWeeklySchedule"/>
+    </agent>
+  </type>
+</types>

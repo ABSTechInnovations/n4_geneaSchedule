@@ -39,3 +39,27 @@
     background-color: #c92e2e;
     color: #e6dbdb;
 }
+
+.ActiveDatesCalendar .pika-lendar .pika-label {
+    background: aqua;
+}
+
+.pika-lendar .pika-row .pika-button {
+    background: #8f0d0d;
+}
+
+.pika-single {
+    background: #1349c2;
+}
+
+.ux-shadow {
+    background: chocolate;
+}
+
+.ux-fg {
+    background-color: chocolate;
+}
+
+.ux-btn {
+    background-color: #c91010;
+}

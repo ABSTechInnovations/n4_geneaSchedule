@@ -1,23 +1,36 @@
 .editor.Scheduler .week-panel {
-    background: #1349c2 !important;
-    font: bold italic 12.0pt Arial !important;
+    background: #1e2024 !important;
+    /*font: bold italic 12.0pt 'Inter SemiBold' !important;*/
+    font-family:'Inter SemiBold' !important;
 }
 
 .ux-tab-bar .ux-btn.ux-toggled {
-    background: #dc1111;
+    background: #1e2024;
 }
 
 .ux-toggle-btn-group > button {
-    background-color: #b43d3d;
+    background-color: #434447;
 }
 
 .ux-fullscreen-support .ux-fullscreen > .ux-fixed-header {
-    background: aqua;
+    background: #1e2024;
+}
+
+.WeekEditor {
+  font-size: 1em;
 }
 
 .ux-root > .bajaux-widget-container > .bajaux-widget {
-    background: blue;
-}
+    background: #1e2024;
+}.WeekEditor .scheduleLabels > .scheduleLabel > label {
+     position: absolute;
+     white-space: nowrap;
+     color: #818181;
+     right: 0.1em;
+     bottom: -0.5em;
+ }
+
+
 
 .Scheduler .ux-tab-panel-container > * {
     background: #ec8c0c;
@@ -38,6 +51,15 @@
 .ux-table .ux-table-head th, .ux-table .ux-table-head .ux-table-head-cell {
     background-color: #c92e2e;
     color: #e6dbdb;
+}
+
+.icon-icons-x16-gear:before {
+    display: inline-block;
+    vertical-align: text-top;
+    content: '';
+    background: url(/module/icons/sprite/sprite.png?ts=1592844973552) -54px -346px;
+    width: 16px;
+    height: 16px;
 }
 
 .ActiveDatesCalendar .pika-lendar .pika-label {

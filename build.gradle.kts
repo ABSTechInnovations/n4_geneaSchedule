@@ -42,9 +42,10 @@ signingServices {
 }
 
 niagaraSigning {
-  aliases.set(com.tridium.util.CollectionUtil.listOf("MyCertificate"))
-  signingProfileFile.set(project.layout.projectDirectory.file("my_signing_profile.xml"))
+  aliases.set(com.tridium.util.CollectionUtil.listOf("RGX-cert"))
+  signingProfileFile.set(project.layout.projectDirectory.file("RGX-cert_signing_profile.xml"))
 }
+
 
 ////////////////////////////////////////////////////////////////
 // Dependencies and configurations... configuration

@@ -29,8 +29,21 @@ define([
         }
 
         doInitialize(dom) {
+            //dom.html(`<div id="geneaSchedule"></div>`);
+            dom.attr('id', 'geneaSchedule');
             super.doInitialize(dom);
+            dom.parent().parent().css('background-color', 'yellow');
+
         }
+
+        doDestroy(){
+            const elem = $('#geneaSchedule');
+
+            // Remove the ID
+            elem.removeAttr('id');
+            elem.parent().parent().css('background-color', '#ffffff')
+        }
+
 
     }
 });

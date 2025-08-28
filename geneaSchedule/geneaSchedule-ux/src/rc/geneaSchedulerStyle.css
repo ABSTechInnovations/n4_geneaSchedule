@@ -1,28 +1,34 @@
-.editor.Scheduler .week-panel {
+#geneaSchedule .editor.Scheduler .week-panel {
     background: #1e2024 !important;
     /*font: bold italic 12.0pt 'Inter SemiBold' !important;*/
     font-family:'Inter SemiBold' !important;
 }
 
-.ux-tab-bar .ux-btn.ux-toggled {
-    background: #1e2024;
+#geneaSchedule .ux-tab-inner-content {
+    background-color: #162ee0;
 }
 
-.ux-toggle-btn-group > button {
-    background-color: #434447;
+#geneaSchedule .ux-tab-bar .ux-btn.ux-toggled {
+    background: #1e2024;!important;
 }
 
-.ux-fullscreen-support .ux-fullscreen > .ux-fixed-header {
-    background: #1e2024;
+#geneaSchedule .ux-toggle-btn-group > button {
+    background-color: #434447;!important;
 }
 
-.WeekEditor {
+#geneaSchedule .ux-fullscreen-support .ux-fullscreen > .ux-fixed-header {
+    background: #1e2024;!important;
+}
+
+#geneaSchedule .WeekEditor {
   font-size: 1em;
 }
 
-.ux-root > .bajaux-widget-container > .bajaux-widget {
-    background: #1e2024;
-}.WeekEditor .scheduleLabels > .scheduleLabel > label {
+#geneaSchedule .ux-root > .bajaux-widget-container > .bajaux-widget {
+    background: #1e2024;!important;
+}
+
+#geneaSchedule .WeekEditor .scheduleLabels > .scheduleLabel > label {
      position: absolute;
      white-space: nowrap;
      color: #818181;
@@ -32,48 +38,49 @@
 
 
 
-.Scheduler .ux-tab-panel-container > * {
-    background: #ec8c0c;
+#geneaSchedule .Scheduler .ux-tab-panel-container > * {
+    background: #ec8c0c;!important;
 }
 
-.SpecialEventsEditor .calendarEventsList {
-    background: #1349c2;
+#geneaSchedule .SpecialEventsEditor .calendarEventsList {
+    background: #1349c2;!important;
 }
 
-.editor.TableWidget.fixedHeaders {
-    background: #a204ad;
+#geneaSchedule .editor.TableWidget.fixedHeaders {
+    background: #a204ad;!important;
 }
 
-.editor.TableWidget.fixedHeaders .tableContainer {
-    background-color: #fc133d;
+#geneaSchedule .editor.TableWidget.fixedHeaders .tableContainer {
+    background-color: #fc133d;!important;
 }
 
-.ux-table .ux-table-head th, .ux-table .ux-table-head .ux-table-head-cell {
+/*.ux-table .ux-table-head th, .ux-table .ux-table-head .ux-table-head-cell {
     background-color: #c92e2e;
     color: #e6dbdb;
-}
+}*/
 
-.icon-icons-x16-gear:before {
+#geneaSchedule .icon-icons-x16-gear:before {
     display: inline-block;
     vertical-align: text-top;
     content: '';
-    background: url(/module/icons/sprite/sprite.png?ts=1592844973552) -54px -346px;
+    background: url('/module/icons/sprite/sprite.png?ts=1592844973552') -54px -346px;
     width: 16px;
     height: 16px;
 }
 
-.ActiveDatesCalendar .pika-lendar .pika-label {
-    background: aqua;
+#geneaSchedule .ActiveDatesCalendar .pika-lendar .pika-label {
+    background: aqua;!important;
 }
 
-.pika-lendar .pika-row .pika-button {
-    background: #8f0d0d;
+#geneaSchedule .pika-lendar .pika-row .pika-button {
+    background: #8f0d0d;!important;
 }
 
-.pika-single {
-    background: #1349c2;
+#geneaSchedule .pika-single {
+    background: #1349c2;!important;
 }
 
+/*
 .ux-shadow {
     background: chocolate;
 }
@@ -84,4 +91,4 @@
 
 .ux-btn {
     background-color: #c91010;
-}
+}*/
